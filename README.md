@@ -3,6 +3,7 @@ Java核心编程
 ## :computer: 基础入门引导知识 
 - [Java入门级知识引导](https://github.com/KissMyLady/Java/blob/master/Note/a_base_getone.md)    
 - [使用Java编辑器(IDEA)跑程序](https://github.com/KissMyLady/Java/blob/master/Note/a_base_idea.md)  
+- [注释, 数据类型, 常量, 变量, 作用域](https://github.com/KissMyLady/Java/blob/master/Note/a_base_variable.md)  
 
 ## :pencil2: Java面向对象编程  
 
