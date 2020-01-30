@@ -73,7 +73,7 @@ public class demo01 {
     }
 }
 ```
-![ScreenShot-00357]()   
+![ScreenShot-00357](https://github.com/KissMyLady/Java/blob/master/Img/ScreenShot-00357.jpg)   
 长整型: `2**64 == 18 446 744 073 709 551 616`可以表示20位数字  
 float单浮点可以表示: 39位(科学计数法省空间, 范围和内存不一定相关)
 double双浮点: 308位  
