@@ -1,6 +1,7 @@
 Java核心编程
 =====
 ## :computer: 基础入门引导知识 
+- [Java入门级知识引导](https://github.com/KissMyLady/Java/blob/master/Note/a_base_getone.md)    
 
 ## :pencil2: Java面向对象编程  
 
