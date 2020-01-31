@@ -214,6 +214,9 @@ public class test_while_true {
         while (true){
             System.out.println("死循环");
         }
+        // 无限循环的最简单表现形式 
+        for (;;){}
+        while (true){} 
     }
 }
 ```
