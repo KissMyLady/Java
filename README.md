@@ -5,11 +5,11 @@ Java核心编程
 - [使用Java编辑器(IDEA)跑程序](https://github.com/KissMyLady/Java/blob/master/Note/a_base_idea.md)  
 - [注释, 数据类型, 常量, 变量, 作用域](https://github.com/KissMyLady/Java/blob/master/Note/a_base_variable.md)  
 - [自动转换, 强制转换](https://github.com/KissMyLady/Java/blob/master/Note/a_base_change.md)    
-- [Ascii](https://github.com/KissMyLady/Java/blob/master/Note/a_base_ascii.md)  
+- [Ascii编码](https://github.com/KissMyLady/Java/blob/master/Note/a_base_ascii.md)  
 - [运算符, 三元运算](https://github.com/KissMyLady/Java/blob/master/Note/a_base_math.md)    
 - [函数调用方法--主函数入口](https://github.com/KissMyLady/Java/blob/master/Note/a_base_methdo.md)  
 - [Jshell命令控制端口](https://github.com/KissMyLady/Java/blob/master/Note/a_base_jshell.md)  
-- [if-else, do-while, for循环](https://github.com/KissMyLady/Java/blob/master/Note/b_base_grammar.md) 
+- [If-else, Do-while, For循环](https://github.com/KissMyLady/Java/blob/master/Note/b_base_grammar.md) 
 
 ## :pencil2: Java面向对象编程  
 
