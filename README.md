@@ -5,6 +5,7 @@ Java核心编程
 - [使用Java编辑器(IDEA)跑程序](https://github.com/KissMyLady/Java/blob/master/Note/a_base_idea.md)  
 - [注释, 数据类型, 常量, 变量, 作用域](https://github.com/KissMyLady/Java/blob/master/Note/a_base_variable.md)  
 - [自动转换, 强制转换](https://github.com/KissMyLady/Java/blob/master/Note/a_base_change.md)    
+- [Ascii](https://github.com/KissMyLady/Java/blob/master/Note/a_base_ascii.md)  
 
 ## :pencil2: Java面向对象编程  
 
