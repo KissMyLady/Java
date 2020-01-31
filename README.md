@@ -7,7 +7,7 @@ Java核心编程
 - [自动转换, 强制转换](https://github.com/KissMyLady/Java/blob/master/Note/a_base_change.md)    
 - [Ascii](https://github.com/KissMyLady/Java/blob/master/Note/a_base_ascii.md)  
 - [运算符, 三元运算](https://github.com/KissMyLady/Java/blob/master/Note/a_base_math.md)    
-
+- [函数调用方法--主函数入口](https://github.com/KissMyLady/Java/blob/master/Note/a_base_methdo.md)  
 
 ## :pencil2: Java面向对象编程  
 
