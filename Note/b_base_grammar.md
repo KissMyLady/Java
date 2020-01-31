@@ -6,7 +6,7 @@
 * [三、Switch语句](#三Switch语句)
 * [四、For循环](#四For循环)
 * [五、While语句](#五While语句)
-* [六、Do-while语句](#Do-while语句)
+* [六、Do-while语句](#六Do-while语句)
 <!-- GFM-TOC -->
 
 
