@@ -33,9 +33,9 @@ public class change_int {
 }
 ```
 ## 2. 转换规则: 
-容量小的类型可自动转换为容量大的数据类型；
+* 容量小的类型可自动转换为容量大的数据类型；
 #### byte,short,char → int → long → float → double
-byte，short，char之间不会相互转换，他们在计算时首先会转换为int类型。
+*byte，short，char之间不会相互转换，他们在计算时首先会转换为int类型。
 #### boolean 类型是不可以转换为其他基本数据类型。
 
 ## 3. 强制转换   
@@ -57,7 +57,7 @@ public class change_int {
 ### 注意: 
 * 浮点转成整数，直接取消小数点，可能造成数据损失精度。   
 * int 强制转成 short 砍掉2个字节，可能造成数据丢失。   
-```
+```Java
 package to.today.my02;
 
 public class change_int {
