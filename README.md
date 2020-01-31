@@ -6,6 +6,8 @@ Java核心编程
 - [注释, 数据类型, 常量, 变量, 作用域](https://github.com/KissMyLady/Java/blob/master/Note/a_base_variable.md)  
 - [自动转换, 强制转换](https://github.com/KissMyLady/Java/blob/master/Note/a_base_change.md)    
 - [Ascii](https://github.com/KissMyLady/Java/blob/master/Note/a_base_ascii.md)  
+- [运算符, 三元运算](https://github.com/KissMyLady/Java/blob/master/Note/a_base_math.md)    
+
 
 ## :pencil2: Java面向对象编程  
 
