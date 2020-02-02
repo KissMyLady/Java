@@ -230,7 +230,7 @@ class test_arry2 {
 }
 ```
 ### 4. 数组获取最大值元素
-![ScreenShot-00376]()   
+![ScreenShot-00376](https://github.com/KissMyLady/Java/blob/master/Img/ScreenShot-00376.jpg)   
 ```Java
 package to.today.my06;
 class test_arry2 {
