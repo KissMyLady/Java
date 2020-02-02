@@ -11,6 +11,7 @@ Java核心编程
 - [函数调用--升级版函数--打印99表](https://github.com/KissMyLady/Java/blob/master/Note/a_base_func2.md)  
 - [Jshell命令控制端口](https://github.com/KissMyLady/Java/blob/master/Note/a_base_jshell.md)  
 - [If-else, Do-while, For循环--基础引导](https://github.com/KissMyLady/Java/blob/master/Note/b_base_grammar.md) 
+- [数组--Arrary](https://github.com/KissMyLady/Java/blob/master/Note/a_base_array.md)    
 
 ## :pencil2: Java面向对象编程  
 
