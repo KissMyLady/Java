@@ -5,7 +5,7 @@
 * [二、日期时间类](#二日期时间类)
 * [三、System类](#三System类)
 * [四、StringBuilder类](#四StringBuilder类)
-* [五、包装类](#四包装类)
+* [五、包装类](#五包装类)
 <!-- GFM-TOC -->
 
 
@@ -565,19 +565,150 @@ public class test_system {
     }
 }
 ```
-### 2. arraycopy方法:  将数组中指定的数据拷贝到另一个数组中   
+### 2. arraycopy方法: 将数组中指定的数据拷贝到另一个数组中     
+数组的拷贝动作是系统级的，性能很高。 System.arraycopy方法具有5个参数，含义分别为：  
+| 参数序号 | 参数名称 | 参数类型 | 参数含义 |   
+| :---: | --- | --- |   
+| 1 | src Object | 源数组 |   
+| 2 | srcPos int | 源数组索引起始位置 |   
+| 3 | dest Object | 目标数组 |   
+| 4 | destPos int | 目标数组索引起始位置 |   
+| 5 | length int |复制元素个数 |   
+实例:  
+```Java
+package to.today.my07;
+import java.util.Arrays;
+public class test_arrycopy {
+    public static void main(String[] args){
+        System.out.println("入口");
+        int[] ab = new int[]{1,2,3,4,5,6};
+        int[] mm = new int[]{15, 56, 94, 55, 77, 88};
+        System.arraycopy(ab, 0, mm, 0, 3);
 
-
-
-
-
-
+        for (int i=0; i<ab.length; i++){
+            System.out.println(ab[i]);
+        }                           // 1,2,3,4,5,6
+        System.out.println("");
+        for (int i=0; i<mm.length; i++){
+            System.out.println(mm[i]);
+        }                           // 1,2,3,  55,77,88
+    }
+}
+```
 ## 四、StringBuilder类
+如果对字符串进行拼接操作，每次拼接，都会构建一个新的String对象，既耗时，又浪费空间。   
+为解决这一问题，可以使用`java.lang.StringBuilder`类:     
+### 1. StringBuilder概述:  
+例子:  
+```Java
+package to.today.my07;
+public class text_stringbuilder {
+    public static void main(String[] args){
+        StringBuilder abc = new StringBuilder("I like Java");
+        System.out.println(abc); //I like Java
+    }
+}
+```
+### 2. append方法:   
+```Java
+package to.today.my07;
 
 
+public class text_stringbuilder {
+    public static void main(String[] args){
+        StringBuilder abc = new StringBuilder("I like Java");
+        System.out.println(abc); //I like Java
+
+        abc.append(" Python");
+        abc.append(" Php");
+        abc.append(" C++");
+        abc.append(" C");
+        // builder.append("Python").append("Php").append("C++").append("C");
+        System.out.println(abc);
+    }
+}
+```
+### 3. toString方法   
+通过toString方法，StringBuilder对象将会转换为不可变的String对象, 例子:     
+```Java
+package to.today.my07;
+import java.security.PublicKey;
+
+public class text_stringbuilder {
+    public static void main(String[] args){
+        ToString();
+    }
+
+    private static void ToString(){
+        StringBuilder ccc = new StringBuilder("I like Java and Python");
+        String str = ccc.toString();
+        System.out.println(str);
+
+        //str.append("add Someone"); Error
+        //System.out.println(str);
+    }
+}
+```
 
 
 ## 五、包装类
+### 1. 概述  
+Java提供了两个类型系统，基本类型与引用类型，使用基本类型在于效率，然而很多情况，会创建对象使用，   
+因为对象可以做更多的功能，如果想要我们的基本类型像对象一样操作，就可以使用基本类型对应的包装类，如下:     
+| 基本类型 | 对应的包装类(位于java.lang包中) |  
+| :---: | --- |  
+| byte | Byte |  
+| short | Short |   
+| int | Integer |  
+| long | Long |  
+| float | Float |  
+| double | Double |  
+| char | Character |  
+| boolean | Boolean |  
+### 2. 装箱与拆箱   
+#### 基本类型与对应的包装类对象之间，来回转换的过程称为`装箱`与`拆箱`:  
+* 装箱: 从基本类型转换为对应的包装类对象  
+* 拆箱: 从包装类对象转换为对应的基本类型    
+例子: 基本数值---->包装对象:  
+```Java
+Integer i = new Integer(4);      // 使用构造函数函数
+Integer iii = Integer.valueOf(4);// 使用包装类中的valueOf方法
+```	
+包装对象---->基本数值:  
+```Java
+int num = i.intValue();
+```
+
+### 3. 自动装箱与自动拆箱   
+由于我们经常要做基本类型与包装类之间的转换，从Java 5(JDK 1.5)开始，基本类型与包装类的装箱、拆箱动作可以自动完成。   
+例如:   
+```Java
+Integer i = 4;// 自动装箱。 相当于Integer i = Integer.valueOf(4);
+i = i + 5;    // 等号右边: 将i对象转成基本数值(自动拆箱) i.intValue() + 5;
+              // 加法运算完成后，再次装箱，把基本数值转成对象。
+```
+### 4. 基本类型与字符串之间的转换  
+#### 基本类型转换为String  
+```Java
+public static byte parseByte(String s)   //将字符串参数转换为对应的byte基本类型。
+public static short parseShort(String s) //将字符串参数转换为对应的short基本类型。
+public static int parseInt(String s) 	 //将字符串参数转换为对应的int基本类型。
+public static long parseLong(String s)   //将字符串参数转换为对应的long基本类型。
+public static float parseFloat(String s) //将字符串参数转换为对应的float基本类型。
+public static double parseDouble(String s)   //将字符串参数转换为对应的double基本类型。
+public static boolean parseBoolean(String s) //将字符串参数转换为对应的boolean基本类型。
+```
+实 例: 
+```
+public class Demo18WrapperParse {
+    public static void main(String[] args) {
+        int num = Integer.parseInt("100");
+    }
+}
+```
+如果字符串参数的内容无法正确转换为对应的基本类型，  
+则会抛出 `java.lang.NumberFormatException`异常。   
+
 
 
 
