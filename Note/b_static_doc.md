@@ -2,7 +2,7 @@
 <!-- GFM-TOC -->
 * [一、Static关键字](#一Static关键字)
 * [二、Main主函数](#二Main主函数)
-* [三、帮助文档的制作Javadoc--Document](#三、帮助文档的制作Javadoc--Document)
+* [三、帮助文档的制作Javadoc--Document](#三帮助文档的制作Javadoc--Document)
 <!-- GFM-TOC -->
 # 一、Static关键字   
 static关键字: 用于修饰成员(成员变量和成员函数)   
