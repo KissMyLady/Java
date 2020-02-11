@@ -17,6 +17,7 @@ Java核心编程
 - [Java面向对象基础知识引导--构造-封装-this](https://github.com/KissMyLady/Java/blob/master/Note/b_oop.md)  
 - [知识引导--Main & Static](https://github.com/KissMyLady/Java/blob/master/Note/b_static.md)  
 - [Static--Main--Doct](https://github.com/KissMyLady/Java/blob/master/Note/b_static_doc.md)    
+- [Static Code](https://github.com/KissMyLady/Java/blob/master/Note/b_static_code.md) 
 - [Object类, Time类, Systemle类, StringBuilder类, 包装类](https://github.com/KissMyLady/Java/blob/master/Note/op_object.md)  
 - [Collection, Iterator 泛型](https://github.com/KissMyLady/Java/blob/master/Note/b_collection.md)    
 
