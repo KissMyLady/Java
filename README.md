@@ -18,6 +18,7 @@ Java核心编程
 - [知识引导--Main & Static](https://github.com/KissMyLady/Java/blob/master/Note/b_static.md)  
 - [Static--Main--Doct](https://github.com/KissMyLady/Java/blob/master/Note/b_static_doc.md)    
 - [静态代码块--初始化过程](https://github.com/KissMyLady/Java/blob/master/Note/b_static_code.md) 
+- [单例--未更完](https://github.com/KissMyLady/Java/blob/master/Note/b_single.md)  
 - [Object类, Time类, Systemle类, StringBuilder类, 包装类](https://github.com/KissMyLady/Java/blob/master/Note/op_object.md)  
 - [Collection, Iterator 泛型](https://github.com/KissMyLady/Java/blob/master/Note/b_collection.md)    
 
