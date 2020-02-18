@@ -22,7 +22,7 @@ Java核心编程
 - [Object类, Time类, Systemle类, StringBuilder类, 包装类](https://github.com/KissMyLady/Java/blob/master/Note/op_object.md)  
 - [Collection, Iterator 泛型](https://github.com/KissMyLady/Java/blob/master/Note/b_collection.md)    
 
-## :floppy_disk: 敬请期待
+## :floppy_disk: Java进阶与提高
 - [Thread](https://github.com/KissMyLady/Java/blob/master/Note/thread.md)  
 
 ## :wrench:  敬请期待
