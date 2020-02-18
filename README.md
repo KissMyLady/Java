@@ -23,6 +23,7 @@ Java核心编程
 - [Collection, Iterator 泛型](https://github.com/KissMyLady/Java/blob/master/Note/b_collection.md)    
 
 ## :floppy_disk: 敬请期待
+- [Thread](https://github.com/KissMyLady/Java/blob/master/Note/thread.md)  
 
 ## :wrench:  敬请期待
 
