@@ -33,6 +33,7 @@ Java核心编程
 ## :watermelon: 敬请期待
 
 ## 其他链接   
+- [Ubuntu安装Java](https://github.com/KissMyLady/Java/blob/master/Note/ut_install_java.md)  
 
 ### 排版    
 
