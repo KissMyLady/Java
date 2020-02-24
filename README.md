@@ -24,9 +24,10 @@ Java核心编程
 - [Collection, Iterator 泛型](https://github.com/KissMyLady/Java/blob/master/Note/b_collection.md)    
 
 ## :floppy_disk: Java进阶与提高
-- [Thread](https://github.com/KissMyLady/Java/blob/master/Note/thread.md)  
+- [Thread](https://github.com/KissMyLady/Java/blob/master/Note/thread.md)   
 
-## :wrench:  敬请期待
+## :wrench:  Java网络编程  
+- [UDP相互通信代码演示](https://github.com/KissMyLady/Java/blob/master/Note/b_socket.md)  
 
 ## :bulb: 敬请期待 
 
